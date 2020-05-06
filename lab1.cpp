@@ -215,7 +215,7 @@ int main() {
 
 		if (tact == numPairs * 4 + 2) break;
 		tact++;
-		cout << "\nСледующие 3 такта - 1\nВыход из программы - 2" << endl;
+		cout << "\nСледующий такт - 1\nВыход из программы - 2" << endl;
 		while (true) {
 			choose = _getch();
 			if (choose == '1') break;
